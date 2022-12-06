@@ -1,0 +1,4 @@
+#this are the dependencies for the project
+pandas
+streamlit
+os
