@@ -10,7 +10,7 @@
 #first 1000 rows of the file and the number of unique and duplicated values per column.
 #It also allows the user to select a column to show the duplicated values.
 #
-#The execute the code:
+#To execute the code:
 #1.load the files you want to analyze in the folder dataset (or run gensampledataset.py to generate a sample dataset)
 #2.check the dependencies in requirements.txt and install them if necessary
 #3.type "streamlit run main.py"
