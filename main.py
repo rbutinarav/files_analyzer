@@ -82,9 +82,9 @@ if st.session_state.file_names_loaded == True:
             if st.session_state.local == True: #this works for local files
                 df = pd.read_csv(folder + '/' + file)
             else:                              #this works for uploaded files
-                st.write('selected file',file)
-                st.write('selected files',selected_files)
-                st.write('file index',file_list.index(file))
+                #st.write('selected file',file)
+                #st.write('selected files',selected_files)
+                #st.write('file index',file_list.index(file))
                 df = pd.read_csv(files[file_list.index(file)])
                 #display the name of the file in bold font
                 st.write('**File:**',file)
