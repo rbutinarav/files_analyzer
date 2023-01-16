@@ -6,10 +6,12 @@ import os as os
 
 st.title("File Analyzer")
 
-#INZIALIZE SESSION STATE
+#inizialize variables
 
 if "analyze_already_clicked" not in st.session_state:
     st.session_state.analyze_already_clicked = False
+
+selected_files = []
 
 
 #create on the left a select box with "show data" option
