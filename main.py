@@ -23,10 +23,6 @@ files_uploaded = st.file_uploader("Choose the files you would like to upload (yo
 
 if files_uploaded != []:
     file_uploaded_list = [file.name for file in files_uploaded]  
-    #st.session_state_files = files
-    #st.session_state.file_list = file_list
-    #st.session_state.files_loaded = True
-    #st.experimental_rerun()
 
 #2. ASK WHICH FILES TO ANALYZE
 if files_uploaded !=[]:
