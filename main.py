@@ -12,7 +12,7 @@ if "analyze_already_clicked" not in st.session_state:
     st.session_state.analyze_already_clicked = False
 
 selected_files = []
-
+analyze = False
 
 #create on the left a select box with "show data" option
 show_preview = st.sidebar.selectbox('Show preview', ['Yes', 'No'])
