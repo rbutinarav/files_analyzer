@@ -1,2 +1,3 @@
 dataset/*
 .streamlit/*
+data_check.py
